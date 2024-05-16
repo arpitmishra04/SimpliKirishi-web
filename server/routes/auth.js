@@ -8,6 +8,7 @@ const Otp = require("../models/Otp.js");
 const User = require("../models/User.js");
 const AuthToken = require("../models/AuthToken.js");
 
+
 const VALIDATE = {
 	PHONE: /\d{10}/,
 	OTP: /\d{4}/,
